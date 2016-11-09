@@ -1,3 +1,4 @@
 .idea/
 *.pyc
 blog/migrations
+/db.sqlite3
