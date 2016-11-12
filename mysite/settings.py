@@ -101,3 +101,18 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# sending e-mails
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'your_account@gmail.com'
+EMAIL_HOST_PASSWORD = 'your_password'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+# EMAIL_HOST : The SMTP server host. Default localhost .
+# EMAIL_PORT : The SMTP port Default 25.
+# EMAIL_HOST_USER : Username for the SMTP server.
+# EMAIL_HOST_PASSWORD : Password for the SMTP server.
+# EMAIL_USE_TLS : Whether to use a TLS secure connection.
+# EMAIL_USE_SSL : Whether to use an implicit TLS secure connection.
